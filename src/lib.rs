@@ -6,7 +6,7 @@
     strict_provenance,
     negative_impls
 )]
-#![allow(unstable_name_collisions)]
+#![expect(unstable_name_collisions)]
 #![warn(
     clippy::panic,
     clippy::unwrap_used,
