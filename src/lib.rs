@@ -31,6 +31,7 @@ pub use arena::{rootless_arena, Arena, Rootable};
 pub use collect::Collect;
 pub use context::{Collector, Mutation, Pacing};
 pub use gc::Gc;
+pub use slicetail::SliceTailed;
 
 pub type PhantomInvariant<'gc> = core::marker::PhantomData<fn(&'gc mut ()) -> &'gc mut ()>;
 
